@@ -76,3 +76,20 @@ if __name__ == "__main__":
     best_x, best_fx = gene_expression_algorithm(objective_function)
     print("\nBest solution found:")
     print(f"x = {best_x:.4f}, f(x) = {best_fx:.4f}")
+
+O/p:
+Gen 0: x = -1.1043, f(x) = 2.9065
+Gen 10: x = -1.6670, f(x) = 2.7779
+Gen 20: x = -1.6454, f(x) = 2.7711
+Gen 30: x = -1.6454, f(x) = 2.7711
+Gen 40: x = -1.6179, f(x) = 2.7639
+Gen 50: x = -1.6179, f(x) = 2.7639
+Gen 60: x = -1.6179, f(x) = 2.7639
+Gen 70: x = -1.5733, f(x) = 2.7554
+Gen 80: x = -1.5053, f(x) = 2.7500
+Gen 90: x = -1.5053, f(x) = 2.7500
+Gen 99: x = -1.5004, f(x) = 2.7500
+
+Best solution found:
+x = -1.5004, f(x) = 2.7500
+
